@@ -1,0 +1,38 @@
+{% extends 'compliments/base.html' %}
+
+{% block content %}
+<div class="app-container">
+    <div class="clouds">
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+    </div>
+    
+    <div class="main-circle">
+        <div class="sparkles"></div>
+        <div class="compliment-text" id="complimentText">
+            Give me love!
+        </div>
+    </div>
+
+    <div class="loading-bar-container">
+        <div class="loading-bar" id="loadingBar"></div>
+    </div>
+
+    <button class="love-button" id="getLoveBtn">
+        Give Me Love ❤️
+    </button>
+
+    <div class="share-buttons">
+        <button class="share-btn" id="shareBtn" style="display: none;">
+            Share ❤️
+        </button>
+    </div>
+
+    <div class="hearts-container">
+        <div class="heart heart-1"></div>
+        <div class="heart heart-2"></div>
+        <div class="heart heart-3"></div>
+        <div class="heart heart-4"></div>
+    </div>
+</div>
+{% endblock %}

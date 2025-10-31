@@ -1,0 +1,11 @@
+{% extends 'compliments/base.html' %}
+
+{% block content %}
+<div class="app-container">
+    <h1>💖 A Compliment Just for You! 💖</h1>
+    
+    <p class="compliment-text">{{ compliment.text }}</p>
+
+    <a href="/" class="love-button">Get Your Own ❤️</a>
+</div>
+{% endblock %}
