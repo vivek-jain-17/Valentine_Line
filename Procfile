@@ -1,1 +1,1 @@
-web: gunicorn valentine_line.wsgi:application
+web: gunicorn valentine.wsgi:application
